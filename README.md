@@ -1,9 +1,9 @@
 ## Description
-Easy to use global store for React, using hooks. 
+Easy to use global store for React, using hooks.
 
-## Usage
+## Usage Example
 
-Create a reactive hook:
+Create a reactive hook, add in fields, nested fields, and methods.
 ```javascript
 import reactive from "./reactive";
 
@@ -24,7 +24,7 @@ const useABC = reactive({
 });
 ```
 
-When any of the above fields, or nested fields changes, all components that use those fields will re-render.
+When any of the above fields change, all components that use those fields will re-render.
 ```javascript
 const Component1 = () => {
   const { a, b, c, changeABC } = useABC();
