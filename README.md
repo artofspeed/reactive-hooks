@@ -1,4 +1,4 @@
-## Reactive Hooks
+## Reactive Hooks [(Demo)](https://codesandbox.io/s/clever-keller-863gj)
 Easiest to use global store for React, powered by hooks. It does 2 things:
 - Directly modify field values
 - Used as a global store, when a field value changes, all components that use it get updated
