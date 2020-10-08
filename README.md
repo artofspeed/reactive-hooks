@@ -5,7 +5,7 @@ The easiest statement management for React, powered by hooks. It has two main fe
 
 ### Usage Example
 
-Create a reactive hook. Let's add in some fields, nested fields, and methods.
+Create a reactive hook. Let's add in some fields and methods.
 ```javascript
 import reactive from "./reactive";
 
