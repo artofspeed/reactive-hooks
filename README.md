@@ -28,6 +28,8 @@ const useABC = reactive({
     this.docs[1].name = "xxxx";
   }
 });
+
+export default useABC;
 ```
 
 ### Use the hook
