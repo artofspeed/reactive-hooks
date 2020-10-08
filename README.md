@@ -8,16 +8,20 @@ Create a reactive hook, add in fields, nested fields, and methods.
 import reactive from "./reactive";
 
 const useABC = reactive({
+  // fields
   a: "a",
   b: "b",
   c: "c",
+  // nested fields
   docs: [
     { id: 1, name: "joe" },
     { id: 2, name: "marry" }
   ],
+  // method: directly set
   changeABC() {
     this.a = this.b = this.c = parseInt(Math.random() * 100, 10);
   },
+  // method: directly modify array item
   changeName() {
     this.docs[1].name = "xxxx";
   }
