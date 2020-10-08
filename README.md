@@ -19,7 +19,7 @@ const useABC = reactive({
   ],
   // method: directly set
   changeABC() {
-    this.a = this.b = this.c = parseInt(Math.random() * 100, 10);
+    this.a = this.b = this.c = 'aaaaa'
   },
   // method: directly modify array item
   changeName() {
