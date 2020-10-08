@@ -1,5 +1,5 @@
 ## Description
-Eeasiest to use global store for React, powered by hooks.
+Easiest to use global store for React, powered by hooks.
 
 ## Usage Example
 
