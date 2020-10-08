@@ -3,7 +3,7 @@ Easiest to use global store for React, powered by hooks. It does 2 things:
 - Directly modify field values
 - Used as a global store, when a field value changes, all components that use it get updated
 
-## Usage Example
+### Usage Example
 
 Create a reactive hook. Let's add in some fields, nested fields, and methods.
 ```javascript
@@ -30,6 +30,7 @@ const useABC = reactive({
 });
 ```
 
+### Use the hook
 When any of the above fields change, all components that use those fields will re-render.
 ```javascript
 const Component1 = () => {
